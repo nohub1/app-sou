@@ -1,0 +1,61 @@
+{
+  "type":"",
+  "url":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"",
+    "fun":"",
+    "param":"",
+    "regex":"",
+    "replacement":""
+  },
+  "category":[],
+  "item-check":["url", "image"],
+  "item-action":"{url}",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"default_image"
+  },
+  "item":{
+    "selector":"div[class~=^ahoList.Index_ahoList.clearfix.layout.*]",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"dl dt a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"dl dt a img",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"dl span.fn_left.nickname",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    }
+  }
+}

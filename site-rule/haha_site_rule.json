@@ -1,0 +1,103 @@
+{
+  "type":"",
+  "url":"https://www.haha.mx/",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"div.pagination a.pagination-link.pagination-next",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[
+    {
+      "url":"https://www.haha.mx/",
+      "image":"",
+      "name":"首页",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"https://www.haha.mx/new",
+      "image":"",
+      "name":"最新",
+      "desc":"",
+      "rule":""
+    }
+  ],
+  "item-check":["image"],
+  "item-action":"app-sou://actionSheet?title=更多操作&cancel=取消&action=分享&%E5%88%86%E4%BA%AB=app-sou%3a%2f%2fshare%3ftitle%3d%e6%af%8f%e6%97%a5%e4%b8%80%e7%ac%91%26text%3d{name}%26image%3d{image}&action=查看来源&%E6%9F%A5%E7%9C%8B%E6%9D%A5%E6%BA%90={url}",
+  "item-image-action":"app-sou://image?url={image}&images={item-urls}",
+  "item-long-action":"app-sou://share?title=每日一笑&text={name}&image={image}",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"empty_none",
+    "imageVisibleType":"empty_none",
+    "avatarVisibleType":"",
+    "nickVisibleType":"",
+    "dateVisibleType":"",
+
+    "imageScaleType":"fit_xy",
+    "imagePlaceholder":"default_image",
+
+    "nameRenderType":"textSize:16dp lineSpacingExtra:3dp lineSpacingMultiplier:1.0 text",
+    "descRenderType":"",
+
+    "nickRenderType":"textSize:15dp text",
+    "dateRenderType":"textSize:13dp text"
+  },
+  "item":{
+    "selector":"div.joke-list-item",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"jid",
+      "regex":"(^[0-9]*$)",
+      "replacement":"https://m.haha.mx/joke/$1"
+    },
+    "image":{
+      "selector":"img[class~=^joke-main-img]",
+      "fun":"attr",
+      "param":"data-original",
+      "regex":"normal",
+      "replacement":"middle"
+    },
+    "name":{
+      "selector":"p.word-wrap.joke-main-content-text",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    },
+    "avatar":{
+      "selector":"img.joke-user-info-avatar-img",
+      "fun":"attr",
+      "param":"src"
+    },
+    "nick":{
+      "selector":"a.inline-block.joke-user-info-nickname",
+      "fun":"text",
+      "param":""
+    },
+    "date":{
+      "selector":"span.joke-user-info-create-time",
+      "fun":"text",
+      "param":""
+    }
+  }
+}

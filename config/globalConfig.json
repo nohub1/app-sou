@@ -1,0 +1,68 @@
+{
+  "comment":"global config",
+  "enableAdBlock": false,
+  "review":{
+    "Test_1.0.10": true,
+    "xiaomi_2.0.200": true,
+    "anzhi_1.2.30": true,
+    "zhushou_1.2.30": true,
+    "appchina_1.2.30": true
+  },
+  "mainActivityFragments": [
+    {
+      "name":"首页",
+      "image":"android.resource://drawable/home_tab_sy_selector",
+      "fragment":"app-sou://home",
+      "visible": 0,
+      "vip": false
+    }, {
+      "name":"寻缘",
+      "image":"android.resource://drawable/home_tab_xy_selector",
+      "fragment":"app-sou://roomGroup",
+      "visible": 1
+    }, {
+      "name":"哈哈",
+      "image":"android.resource://drawable/home_tab_face_selector",
+      "fragment":"app-sou://site?type=tuWenCard2&title=哈哈&bar=0x21&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fhaha_site_rule.json%3f_t%3d20171205161065",
+      "visible":2
+    }, {
+      "name":"发现",
+      "image":"android.resource://drawable/home_tab_fx_selector",
+      "fragment":"app-sou://discovery"
+    }, {
+      "name":"我的",
+      "image":"android.resource://drawable/home_tab_wd_selector",
+      "fragment":"app-sou://mine"
+    }
+  ],
+  "homePageFragments": [
+    {
+      "name":"热映",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=热映&rule=https://nohub1.github.io/app-sou/site-lua/douban_nowintheater_movie_page_site.lua&url=movie%3a%2f%2fparam%3f",
+      "visible":2
+    },{
+      "name":"电影",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=电影&rule=https://nohub1.github.io/app-sou/site-lua/douban_movie_page_site.lua&url=movie%3a%2f%2fparam%3f"
+    },{
+      "name":"高分",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=miniCard&title=高分&rule=https://nohub1.github.io/app-sou/site-lua/douban_movie_page_site.lua&url=movie%3a%2f%2fparam%3ftag%3d%e8%b1%86%e7%93%a3%e9%ab%98%e5%88%86"
+    }, {
+      "name":"电视",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=电视&rule=https://nohub1.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%94%b5%e8%a7%86%e5%89%a7%26type%3d0",
+      "visible": 1
+    }, {
+      "name":"动漫",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=动漫&rule=https://nohub1.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e5%8a%a8%e7%94%bb%e7%89%87%e5%a4%a7%e5%85%a8%26type%3d0",
+      "visible": 1
+    }, {
+      "name":"综艺",
+      "image":"",
+      "fragment":"app-sou://site?siteType=lua-common&type=categoryPreview-miniCard&title=综艺&rule=https://nohub1.github.io/app-sou/site-lua/baidu_movie_category_site.lua&url=movie%3a%2f%2fparam%3fquery%3d%e7%bb%bc%e8%89%ba%26type%3d0"
+    }
+  ]
+}

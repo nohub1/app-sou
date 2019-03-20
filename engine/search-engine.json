@@ -1,0 +1,134 @@
+{
+  "comments":"search engine define file, [visible=1 is gone] [visible=2 is review device gone]",
+  "engines":[{
+    "type":"all",
+    "name":"全网搜索",
+    "desc":"更多",
+    "engine":"web",
+    "view":"simpleHorizontal",
+    "rule":"default",
+    "url":"{keywords}"
+  }, {
+    "type":"video",
+    "name":"在线视频",
+    "desc":"更多",
+    "engine":"complex",
+    "view":"mediumCard",
+    "visible":2,
+    "engines": [{
+      "type":"video",
+      "name":"9080yy",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"https://nohub1.github.io/app-sou/engine/9080yy_site_rule.json",
+      "url":"http://m.9080yy.com/vod-search--------------.html?wd={keywords-url-encode}",
+      "visible":2
+    }, {
+      "type":"video",
+      "name":"全集网",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"https://nohub1.github.io/app-sou/engine/quanji888_site_rule.json",
+      "url":"site://param?body=wd%3d{keywords-url-encode}",
+      "visible":2
+    }, {
+      "type":"video",
+      "name":"热剧网",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"https://nohub1.github.io/app-sou/engine/cicimai_site_rule.json",
+      "url":"site://param?body=wd%3d{keywords-url-encode}",
+      "visible":2
+    }, {
+      "type":"video",
+      "name":"天天影院",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"https://nohub1.github.io/app-sou/engine/ttvdo_site_rule.json",
+      "url":"http://www.ttvdo.com/?s={keywords-url-encode}",
+      "visible":2
+    }, {
+      "type":"video",
+      "name":"高清MP4",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"simple",
+      "rule":"https://nohub1.github.io/app-sou/engine/mp4pa_site_rule.json",
+      "url":"site://param?body=searchword%3d{keywords-url-encode}",
+      "visible":1
+    }]
+  }, {
+    "type":"video",
+    "name":"影视下载",
+    "desc":"更多",
+    "engine":"complex",
+    "view":"simple",
+    "visible":0,
+    "engines": [{
+      "type":"video",
+      "name":"bdsee",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"https://nohub1.github.io/app-sou/engine/bdsee_site_rule.json",
+      "url":"http://www.bdsee.cn/?s={keywords-url-encode}",
+      "visible":0
+    }, {
+      "type":"movie",
+      "name":"80s",
+      "engine":"jsoup",
+      "rule":"https://nohub1.github.io/app-sou/engine/80sdy_site_rule.json",
+      "url":"site://param?body=keyword%3d{keywords-url-encode}",
+      "visible":0
+    }, {
+      "type":"movie",
+      "name":"dytt",
+      "engine":"jsoup",
+      "rule":"https://nohub1.github.io/app-sou/engine/dytt_site_rule.json",
+      "url":"http://s.dydytt.net/plus/search.php?kwtype=0&keyword={keywords-url-encode-gb2312}",
+      "visible":0
+    }]
+  }, {
+    "type":"book",
+    "name":"小说",
+    "desc":"更多",
+    "engine":"lua",
+    "view":"mediumCard",
+    "rule":"https://nohub1.github.io/app-sou/engine/baidu_dushu_site.lua",
+    "url":"book://param?keyword={keywords-url-encode}",
+    "visible":1
+  }, {
+    "type":"video",
+    "name":"磁力搜索",
+    "desc":"更多",
+    "engine":"complex",
+    "view":"simple",
+    "visible":2,
+    "engines": [{
+      "type":"movie",
+      "name":"ciligou",
+      "engine":"jsoup",
+      "rule":"https://nohub1.github.io/app-sou/engine/ciligou_site_rule.json",
+      "url":"https://www.ciligou.me/search?word={keywords-url-encode}",
+      "visible":0
+    }, {
+      "type":"movie",
+      "name":"souboyun",
+      "engine":"jsoup",
+      "rule":"https://nohub1.github.io/app-sou/engine/souboyun_site_rule.json",
+      "url":"http://www.souboyun.cn/list/?wd={keywords-url-encode}",
+      "visible":1
+    }, {
+      "type":"movie",
+      "name":"ciliba",
+      "engine":"jsoup",
+      "rule":"https://nohub1.github.io/app-sou/engine/ciliba_site_rule.json",
+      "url":"https://www.ciliba.org/s/{keywords-url-encode}.html",
+      "visible":0
+    }]
+  }]
+}

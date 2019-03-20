@@ -1,0 +1,67 @@
+{
+  "type":"",
+  "url":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "referrer":"https://www.ciligou.me/",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"div.Search_box ul.pagination li.active ~ li:not(.first_p)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[],
+  "item-check":["url", "name"],
+  "item-action":"app-sou://sniffer?sniff=true&ua=Mozilla%2f5.0+(Macintosh%3b+Intel+Mac+OS+X+10_11_3)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f71.0.3578.98+Safari%2f537.36&url={url}",
+  "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_magnet"
+  },
+  "item":{
+    "selector":"div.Search_box li",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"a.SearchListTitle_result_title",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"",
+      "fun":"",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"a.SearchListTitle_result_title",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"div.Search_list_info",
+      "fun":"text",
+      "param":""
+    }
+  }
+}

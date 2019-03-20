@@ -1,0 +1,93 @@
+{
+  "type":"",
+  "url":"http://www.ygdy8.com/html/gndy/dyzz/index.html",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"div.x a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[
+    {
+      "url":"http://www.ygdy8.com/html/gndy/dyzz/index.html",
+      "image":"",
+      "name":"最新电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.ygdy8.com/html/gndy/rihan/index.html",
+      "image":"",
+      "name":"日韩电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.ygdy8.com/html/gndy/oumei/index.html",
+      "image":"",
+      "name":"欧美电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.ygdy8.com/html/gndy/china/index.html",
+      "image":"",
+      "name":"国内电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.ygdy8.com/html/gndy/jddy/index.html",
+      "image":"",
+      "name":"综合电影",
+      "desc":"",
+      "rule":""
+    }
+  ],
+  "item-check":["url", "name"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fygdy_site_video_view_rule.json%3f_t%3d10000&url={url}",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_video"
+  },
+  "item":{
+    "selector":"div.co_content8 ul tbody",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"b a:matches((?=《)(.+?)(?<=》))",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"",
+      "fun":"",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"b a:matches((?=《)(.+?)(?<=》))",
+      "fun":"text",
+      "param":"",
+      "regex":"(?=《)(.+?)(?<=》)",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"b a:matches((?=《)(.+?)(?<=》))",
+      "fun":"text",
+      "param":""
+    }
+  }
+}

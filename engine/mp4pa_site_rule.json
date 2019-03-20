@@ -1,0 +1,67 @@
+{
+  "type":"",
+  "url":"http://www.mp4pa.com/search.php",
+  "method":"post",
+  "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"div li a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[],
+  "item-check":["url", "name"],
+  "item-action":"",
+  "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"html",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_video"
+  },
+  "item":{
+    "selector":"div.container.vod-detail.sea-bg ul h4 a",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"",
+      "fun":"",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"title",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"this",
+      "fun":"text",
+      "param":""
+    }
+  }
+}

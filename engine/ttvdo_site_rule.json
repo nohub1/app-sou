@@ -1,0 +1,67 @@
+{
+  "type":"",
+  "url":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Mobile Safari/537.36",
+  "referrer":"http://www.ttvdo.com/",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[],
+  "item-check":["url", "name"],
+  "item-action":"",
+  "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"html",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_video"
+  },
+  "item":{
+    "selector":"article.u-movie",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"div.list-poster a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"div.list-poster a img",
+      "fun":"attr",
+      "param":"data-original",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"h2 a",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"div.list-poster",
+      "fun":"html",
+      "param":""
+    }
+  }
+}

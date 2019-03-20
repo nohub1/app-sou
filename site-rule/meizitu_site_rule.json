@@ -1,0 +1,146 @@
+{
+  "type":"",
+  "url":"http://www.meizitu.com/a/more_1.html",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"div#wp_page_numbers ul li a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[
+    {
+      "url":"http://www.meizitu.com/a/more_1.html",
+      "image":"",
+      "name":"首页",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/pure.html",
+      "image":"",
+      "name":"颜值控",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/cute.html",
+      "image":"",
+      "name":"萌妹",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/sexy.html",
+      "image":"",
+      "name":"性感",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/fuli.html",
+      "image":"",
+      "name":"福利",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/legs.html",
+      "image":"",
+      "name":"长腿美臀",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/rixi.html",
+      "image":"",
+      "name":"日系妹纸",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/qingchun.html",
+      "image":"",
+      "name":"治愈系",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/yundong.html",
+      "image":"",
+      "name":"运动girl",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/qingchun.html",
+      "image":"",
+      "name":"清纯",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/sifang.html",
+      "image":"",
+      "name":"私房",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/mote_6_1.html",
+      "image":"",
+      "name":"模特",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/keai_64_1.html",
+      "image":"",
+      "name":"可爱",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.meizitu.com/a/bijini.html",
+      "image":"",
+      "name":"比基尼",
+      "desc":"",
+      "rule":""
+    }
+  ],
+  "item-check":["url", "image"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fmeizitu_site_image_view_rule.json%3f_t%3d10000&url={url}",
+  "item-long-action":"app-sou://share?title=美女分享&text={name}&url={image}&image={image}&ua={userAgent}&referrer={referrer}",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"empty_none",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_image"
+  },
+  "item":{
+    "selector":"li.wp-item div.con",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"div.pic a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"div.pic a img",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"div.pic a img",
+      "fun":"attr",
+      "param":"alt",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "type":"",
+  "url":"https://www.80s.tw/movie/list",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"div.pager a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[
+    {
+      "url":"https://www.80s.tw/movie/list",
+      "image":"",
+      "name":"电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"https://www.80s.tw/ju/list",
+      "image":"",
+      "name":"电视剧",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"https://www.80s.tw/dm/list",
+      "image":"",
+      "name":"动漫",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"https://www.80s.tw/zy/list",
+      "image":"",
+      "name":"综艺",
+      "desc":"",
+      "rule":""
+    }
+  ],
+  "item-check":["url", "name"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2f80sdy_site_video_view_rule.json%3f_t%3d10000&url={url}",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"fit_xy",
+    "imagePlaceholder":"ic_dl_video"
+  },
+  "item":{
+    "selector":"ul.me1.clearfix li",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"img",
+      "fun":"attr",
+      "param":"_src",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"a",
+      "fun":"attr",
+      "param":"title",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"span.tip",
+      "fun":"text",
+      "param":""
+    }
+  }
+}

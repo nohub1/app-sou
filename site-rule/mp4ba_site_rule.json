@@ -1,0 +1,141 @@
+{
+  "type":"",
+  "url":"http://www.mp4pa.com/index.html",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"div.page a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[
+    {
+      "url":"http://www.177piczz.info/",
+      "image":"",
+      "name":"首页",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd1.html",
+      "image":"",
+      "name":"国产电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd2.html",
+      "image":"",
+      "name":"港台电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd3.html",
+      "image":"",
+      "name":"欧美电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd4.html",
+      "image":"",
+      "name":"日韩电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd5.html",
+      "image":"",
+      "name":"海外电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd6.html",
+      "image":"",
+      "name":"动画电影",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd30.html",
+      "image":"",
+      "name":"国产电视剧",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd35.html",
+      "image":"",
+      "name":"欧美电视剧",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd36.html",
+      "image":"",
+      "name":"港台电视剧",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd40.html",
+      "image":"",
+      "name":"综艺节目",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/dy/hd50.html",
+      "image":"",
+      "name":"动漫剧集",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mp4pa.com/top/4.html",
+      "image":"",
+      "name":"周星驰电影",
+      "desc":"",
+      "rule":""
+    }
+  ],
+  "item-check":["url", "name"],
+  "item-action":"",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_video"
+  },
+  "item":{
+    "selector":"div.newslist ul li a.titl",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"",
+      "fun":"",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"this",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"this",
+      "fun":"text",
+      "param":""
+    }
+  }
+}

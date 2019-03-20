@@ -1,0 +1,79 @@
+{
+  "type":"",
+  "url":"https://osag0.cn/list/popular/",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"a.arrow_button_pink:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[
+    {
+      "url":"https://osag0.cn/list/popular/",
+      "image":"",
+      "name":"排行",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"https://osag0.cn/list/?pixel=uncover",
+      "image":"",
+      "name":"无码",
+      "desc":"",
+      "rule":""
+    },{
+      "url":"https://osag0.cn/list/?cate=獨家推薦",
+      "image":"",
+      "name":"独家",
+      "desc":"",
+      "rule":""
+    }
+  ],
+  "item-check":["url", "image"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fjav101_site_video_view_rule.json%3f_t%3d100430&url={url}",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"empty_none",
+    "nameRenderType":"html",
+    "descRenderType":"html",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_image"
+  },
+  "item":{
+    "selector":"div.video-wrapper a.videoBox",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"div.videoBox-cover",
+      "fun":"attr",
+      "param":"data-src"
+    },
+    "name":{
+      "selector":"h4",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    }
+  }
+}

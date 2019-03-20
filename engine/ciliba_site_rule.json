@@ -1,0 +1,67 @@
+{
+  "type":"",
+  "url":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36",
+  "referrer":"https://www.ciliba.org/",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"li.nextpage a",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[],
+  "item-check":["url", "name"],
+  "item-action":"app-sou://sniffer?sniff=true&ua=Mozilla%2f5.0+(Linux%3b+Android+5.0%3b+SM-G900P+Build%2fLRX21T)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f63.0.3239.132+Mobile+Safari%2f537.36&url={url}",
+  "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_magnet"
+  },
+  "item":{
+    "selector":"div.search-item",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"",
+      "fun":"",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"a",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"div.item-bar",
+      "fun":"text",
+      "param":""
+    }
+  }
+}

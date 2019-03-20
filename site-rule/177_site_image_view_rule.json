@@ -1,0 +1,57 @@
+{
+  "type":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"div.wp-pagenavi p a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "item-check":["image"],
+  "item-action":"app-sou://image?title={name}&url={image}&images={item-images}",
+  "item-view-template":{
+    "nameVisibleType":"none",
+    "descVisibleType":"none",
+    "nameRenderType":"html",
+    "descRenderType":"html",
+    "imageScaleType":"scale_fit_x",
+    "imagePlaceholder":"ic_dl_image"
+  },
+  "item":{
+    "selector":"div.entry-content p img[src$=.jpg]",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"src"
+    },
+    "image":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    }
+  }
+}

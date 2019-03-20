@@ -1,0 +1,18 @@
+{
+    "config": {
+        "silentUpdate": false,
+        "forceUpdate": false
+    },
+    "url":"",
+    "title":"",
+    "content":"",
+    "versionName":"",
+    "versionCode":0,
+    "updateVersion":[{
+        "min":0,
+        "max":0
+    }, {
+        "min":0,
+        "max":0
+    }]
+}

@@ -1,0 +1,80 @@
+{
+  "type":"",
+  "url":"http://www.mmjpg.com/",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"div.page a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[
+    {
+      "url":"http://www.mmjpg.com/",
+      "image":"",
+      "name":"首页",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mmjpg.com/hot/",
+      "image":"",
+      "name":"最热",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.mmjpg.com/top/",
+      "image":"",
+      "name":"推荐",
+      "desc":"",
+      "rule":""
+    }
+  ],
+  "item-check":["url", "image"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fmmjpg_site_image_view_rule.json%3f_t%3d10000&url={url}",
+  "item-long-action":"app-sou://share?title=美女分享&text={name}&url={image}&image={image}&ua={userAgent}&referrer={referrer}",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"empty_none",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_image"
+  },
+  "item":{
+    "selector":"div.main div.pic li",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"img",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"img",
+      "fun":"attr",
+      "param":"alt",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    }
+  }
+}

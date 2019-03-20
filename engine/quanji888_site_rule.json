@@ -1,0 +1,67 @@
+{
+  "type":"",
+  "url":"http://m.kp2000.com/index.php?s=vod-search",
+  "method":"post",
+  "userAgent":"Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Mobile Safari/537.36",
+  "referrer":"http://m.kp2000.com/index.html",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"div.main a.next.pagegbk",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[],
+  "item-check":["url", "desc"],
+  "item-action":"",
+  "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"html",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_video"
+  },
+  "item":{
+    "selector":"div.main li",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"img",
+      "fun":"attr",
+      "param":"data-original",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"a",
+      "fun":"attr",
+      "param":"title",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"div.list_info",
+      "fun":"html",
+      "param":""
+    }
+  }
+}

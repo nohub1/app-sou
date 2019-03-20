@@ -1,0 +1,66 @@
+{
+  "type":"",
+  "url":"http://www.kan2008.com/forum-66-1.html",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"div#pgt.bm.bw0.pgs.cl > span > div.pg > a.nxt",
+    "fun":"attr",
+    "param":"href"
+  },
+  "item-check":["url", "name"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https://nohub1.github.io/app-sou/site-rule/nangua_meizi_site_image_view_rule.json&url={url}",
+  "item-long-action":"app-sou://share?title=美女分享&text={name}&url={image}&image={image}",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_folder"
+  },
+  "item":{
+    "selector":"tbody[id^=normalthread_]",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"th a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"",
+      "fun":"",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"th a",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"th a",
+      "fun":"text",
+      "param":""
+    }
+  }
+}

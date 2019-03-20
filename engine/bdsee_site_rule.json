@@ -1,0 +1,67 @@
+{
+  "type":"",
+  "url":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+  "referrer":"http://www.bdsee.cn/",
+  "timeout":0,
+  "header":[],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"a:contains(下一页)",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[],
+  "item-check":["url", "name"],
+  "item-action":"app-sou://web?sniff=true&url={url}",
+  "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"html",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_video"
+  },
+  "item":{
+    "selector":"article",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"div.feat-img a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"div.feat-img img",
+      "fun":"attr",
+      "param":"src",
+      "regex":"",
+      "replacement":""
+    },
+    "name":{
+      "selector":"div.content header a.title",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"div.content",
+      "fun":"html",
+      "param":""
+    }
+  }
+}

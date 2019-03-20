@@ -1,0 +1,57 @@
+{
+  "type":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"",
+    "fun":"attr",
+    "param":"href"
+  },
+  "item-check":["url", "image"],
+  "item-action":"app-sou://play?title={name}&url={url}",
+  "item-view-template":{
+    "nameVisibleType":"",
+    "descVisibleType":"",
+    "nameRenderType":"",
+    "descRenderType":"html",
+    "imageScaleType":"scale_fit_x",
+    "imagePlaceholder":"ic_dl_image"
+  },
+  "item":{
+    "selector":"div#container",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"div.videoContent video source",
+      "fun":"attr",
+      "param":"src"
+    },
+    "image":{
+      "selector":"div.videoContent div#videoJav",
+      "fun":"attr",
+      "param":"data-poster"
+    },
+    "name":{
+      "selector":"div.leftBox span.title",
+      "fun":"text",
+      "param":""
+    },
+    "desc":{
+      "selector":"div.leftBox",
+      "fun":"html",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "comments":"parse engine define file, [visible=1 is gone] [visible=2 is review device gone]",
+  "engines":[{
+    "name":"播放源1",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/(?:m|www).film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }, {
+        "name":"优酷",
+        "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
+      }, {
+        "name":"腾讯视频",
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"http://api.baiyug.cn/vip/index.php?url={url-encode}"
+  }, {
+    "name":"播放源2",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/(?:m|www).film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }, {
+        "name":"优酷",
+        "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
+      }, {
+        "name":"腾讯视频",
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"http://jx.ejiafarm.com/dy.php?url={url-encode}"
+  }, {
+    "name":"播放源3",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/(?:m|www).film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }, {
+        "name":"优酷",
+        "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
+      }, {
+        "name":"腾讯视频",
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"http://www.a305.org/flv.php?url={url-encode}"
+  }, {
+    "name":"播放源4",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/(?:m|www).film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }, {
+        "name":"优酷",
+        "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
+      }, {
+        "name":"腾讯视频",
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"http://api.nepian.com/ckparse/?url={url-encode}"
+  }, {
+    "name":"播放源5",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/(?:m|www).film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }, {
+        "name":"优酷",
+        "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
+      }, {
+        "name":"腾讯视频",
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"https://player.baodai.org/ipsign/player.php?v={url-encode}"
+  }, {
+    "name":"播放源6",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/(?:m|www).film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }, {
+        "name":"优酷",
+        "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
+      }, {
+        "name":"腾讯视频",
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"http://api.tjluomai.com/?url={url-encode}"
+  }, {
+    "name":"播放源7",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/(?:m|www).film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }, {
+        "name":"优酷",
+        "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
+      }, {
+        "name":"腾讯视频",
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"http://api.wlzhan.com/sudu/?url={url-encode}"
+  }, {
+    "name":"播放源8",
+    "desc":"更多",
+    "engine":"web",
+    "supports":[
+      {
+        "name":"爱奇艺",
+        "regex":"^(?:http|https):\/\/(?:m|www).iqiyi.com\/(.*)(.html)(.*)$"
+      }, {
+        "name":"搜狐",
+        "regex":"^(?:http|https):\/\/(?:m|www).film.sohu.com\/album\/(.*)(.html)(.*)$"
+      }, {
+        "name":"优酷",
+        "regex":"^(?:http|https):\/\/(?:m|www).youku.com\/video\/(.*)(.html)(.*)$"
+      }, {
+        "name":"腾讯视频",
+        "regex":"^(?:http|https):\/\/(?:m|www).v.qq.com\/(.*)cover\/(.*)(.html)(.*)$"
+      }
+    ],
+    "rule":"",
+    "url":"http://y.mt2t.com/lines?url={url-encode}"
+  }]
+}

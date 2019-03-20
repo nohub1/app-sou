@@ -1,0 +1,85 @@
+{
+  "type":"",
+  "url":"http://www.177piczz.info/",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "next":{
+    "selector":"a.nextpostslink",
+    "fun":"attr",
+    "param":"href"
+  },
+  "category":[
+    {
+      "url":"http://www.177piczz.info/",
+      "image":"",
+      "name":"首页",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.177piczz.info/html/category/cg",
+      "image":"",
+      "name":"全彩CG",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.177piczz.info/html/category/tt",
+      "image":"",
+      "name":"中文成人H漫畫",
+      "desc":"",
+      "rule":""
+    }, {
+      "url":"http://www.177piczz.info/html/category/jj",
+      "image":"",
+      "name":"日文成人H漫畫",
+      "desc":"",
+      "rule":""
+    }
+  ],
+  "item-check":["url", "image"],
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2f177_site_image_view_rule.json%3f_t%3d10001&url={url}",
+  "item-view-template":{
+    "nameVisibleType":"empty_none",
+    "descVisibleType":"empty_none",
+    "nameRenderType":"html",
+    "descRenderType":"html",
+    "imageScaleType":"",
+    "imagePlaceholder":"ic_dl_image"
+  },
+  "item":{
+    "selector":"div.post_box",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"div.tit a",
+      "fun":"attr",
+      "param":"href"
+    },
+    "image":{
+      "selector":"div.c-con a img[src$=.jpg]",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"div.tit a",
+      "fun":"text",
+      "param":"",
+      "regex":"",
+      "replacement":""
+    },
+    "desc":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    }
+  }
+}

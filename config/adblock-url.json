@@ -1,0 +1,13 @@
+{
+  "comments":"adblock",
+  "data": [{
+      "page":"^http://m.ac.qq.com.*",
+      "rule":[
+        "^http://ui.ptlogin2.qq.com/cgi-bin/login.*"
+      ]
+    }, {
+      "page":"",
+      "rule":[]
+    }
+  ]
+}

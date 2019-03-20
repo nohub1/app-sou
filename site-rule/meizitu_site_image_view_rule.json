@@ -1,0 +1,63 @@
+{
+  "type":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "referrer":"",
+  "timeout":0,
+  "header":[{"key":"Connection", "value":"keep-alive"}],
+  "cookie":[],
+  "data":[],
+  "title":{
+    "selector":"title",
+    "fun":"text",
+    "param":""
+  },
+  "prev":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "next":{
+    "selector":"",
+    "fun":"",
+    "param":""
+  },
+  "item-check":["image"],
+  "item-action":"app-sou://image?title={name}&url={image}&images={item-images}&ua={userAgent}&referrer={referrer}",
+  "item-long-action":"app-sou://share?title=美女分享&text={name}&url={image}&image={image}&ua={userAgent}&referrer={referrer}",
+  "item-view-template":{
+    "nameVisibleType":"none",
+    "descVisibleType":"none",
+    "nameRenderType":"html",
+    "descRenderType":"html",
+    "imageScaleType":"scale_fit_x",
+    "imagePlaceholder":"ic_dl_image"
+  },
+  "item":{
+    "selector":"div#picture p img",
+    "fun":"",
+    "param":"",
+    "url":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"src"
+    },
+    "image":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"src"
+    },
+    "name":{
+      "selector":"",
+      "fun":"",
+      "param":""
+    },
+    "desc":{
+      "selector":"this",
+      "fun":"attr",
+      "param":"alt",
+      "regex":"",
+      "replacement":""
+    }
+  }
+}
