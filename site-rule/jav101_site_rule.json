@@ -49,12 +49,6 @@
       "name":"动漫",
       "desc":"",
       "rule":""
-    },{
-      "url":"https://osag0.cn/tag/VR",
-      "image":"",
-      "name":"VR",
-      "desc":"",
-      "rule":""
     }
   ],
   "item-check":["url", "image"],
