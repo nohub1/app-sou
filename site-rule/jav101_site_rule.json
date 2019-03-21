@@ -37,6 +37,24 @@
       "name":"独家",
       "desc":"",
       "rule":""
+    },{
+      "url":"https://osag0.cn/tag/%E4%B8%AD%E6%96%87",
+      "image":"",
+      "name":"中文",
+      "desc":"",
+      "rule":""
+    },{
+      "url":"https://osag0.cn/tag/H%E5%8B%95%E7%95%AB",
+      "image":"",
+      "name":"动漫",
+      "desc":"",
+      "rule":""
+    },{
+      "url":"https://osag0.cn/tag/VR",
+      "image":"",
+      "name":"VR",
+      "desc":"",
+      "rule":""
     }
   ],
   "item-check":["url", "image"],
