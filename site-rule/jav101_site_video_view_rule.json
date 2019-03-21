@@ -32,7 +32,7 @@
     "fun":"",
     "param":"",
     "url":{
-      "selector":"div.videoContent video source",
+      "selector":"div.videoContent video, dl8-video source",
       "fun":"attr",
       "param":"src"
     },
