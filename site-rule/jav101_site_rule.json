@@ -49,16 +49,10 @@
       "name":"动漫",
       "desc":"",
       "rule":""
-    },{
-      "url":"https://osag0.cn/tag/VR",
-      "image":"",
-      "name":"VR",
-      "desc":"",
-      "rule":""
     }
   ],
   "item-check":["url", "image"],
-  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fjav101_site_video_view_rule.json%3f_t%3d1004430&url={url}",
+  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fjav101_site_video_view_rule.json%3f_t%3d1430&url={url}",
   "item-view-template":{
     "nameVisibleType":"empty_none",
     "descVisibleType":"empty_none",
