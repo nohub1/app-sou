@@ -39,7 +39,7 @@
     "fun":"",
     "param":"",
     "url":{
-      "selector":"th a",
+      "selector":"th a[class=s xst]",
       "fun":"attr",
       "param":"href"
     },
@@ -51,14 +51,14 @@
       "replacement":""
     },
     "name":{
-      "selector":"th a",
+      "selector":"th a[class=s xst]",
       "fun":"text",
       "param":"",
       "regex":"",
       "replacement":""
     },
     "desc":{
-      "selector":"th a",
+      "selector":"th a[class=s xst]",
       "fun":"text",
       "param":""
     }

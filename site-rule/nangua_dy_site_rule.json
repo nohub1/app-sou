@@ -25,25 +25,25 @@
   },
   "category":[
     {
-      "url":"http://www.kan2008.com/forum-52-1.html",
+      "url":"http://www.kankan2008.com/forum-52-1.html",
       "image":"",
       "name":"电影",
       "desc":"",
       "rule":""
     }, {
-      "url":"http://www.nangua2008.com/forum-67-1.html",
+      "url":"http://www.kankan2008.com/forum-67-1.html",
       "image":"",
       "name":"电视剧",
       "desc":"",
       "rule":""
     }, {
-      "url":"http://www.nangua2008.com/forum-141-1.html",
+      "url":"http://www.kankan2008.com/forum-141-1.html",
       "image":"",
       "name":"美剧",
       "desc":"",
       "rule":""
     }, {
-      "url":"http://www.nangua2008.com/forum-142-1.html",
+      "url":"http://www.kankan2008.com/forum-142-1.html",
       "image":"",
       "name":"韩剧",
       "desc":"",
@@ -65,26 +65,26 @@
     "fun":"",
     "param":"",
     "url":{
-      "selector":"th a",
+      "selector":"th a[class=s xst]",
       "fun":"attr",
       "param":"href"
     },
     "image":{
-      "selector":"tr td.icn a img",
+      "selector":"tr td.icn a[class=s xst] img",
       "fun":"attr",
       "param":"src",
       "regex":"(.*)",
       "replacement":"android.resource://drawable/ic_dl_video"
     },
     "name":{
-      "selector":"th a",
+      "selector":"th a[class=s xst]",
       "fun":"text",
       "param":"",
       "regex":"(?=《)(.+?)(?<=》)",
       "replacement":""
     },
     "desc":{
-      "selector":"th a",
+      "selector":"th a[class=s xst]",
       "fun":"text",
       "param":""
     }

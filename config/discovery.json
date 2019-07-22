@@ -21,7 +21,7 @@
     },{
       "image":"http://www.kankan2008.com/data/attachment/forum/201712/05/105930hs29s8zq9s75z8s2.jpg",
       "name":"妹子写真",
-      "url":"app-sou://site?type=simple&title=妹子写真&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fnangua_meizi_site_rule.json%3f_t%3d2017120516273",
+      "url":"app-sou://site?type=simple&title=妹子写真&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fnangua_meizi_site_rule.json%3f_t%3d20171205162731",
       "r18":false,
       "visible":2
     },{
@@ -33,7 +33,7 @@
     },{
       "image":"https://nohub1.github.io/app-sou/icon/movie.png",
       "name":"南瓜电影",
-      "url":"app-sou://site?type=simple&title=电影下载&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fnangua_dy_site_rule.json%3f_t%3d201710516733",
+      "url":"app-sou://site?type=simple&title=电影下载&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2fnangua_dy_site_rule.json%3f_t%3d2017105167331",
       "visible":0
 	},{
       "image":"https://nohub1.github.io/app-sou/icon/movie.png",
