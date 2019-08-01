@@ -22,7 +22,7 @@
       "engine":"jsoup",
       "view":"mediumCard",
       "rule":"https://nohub1.github.io/app-sou/engine/9080yy_site_rule.json",
-      "url":"http://m.9080yy.com/vod-search--------------.html?wd={keywords-url-encode}",
+      "url":"http://www.9080ys.com/vod-search--------------.html?wd={keywords-url-encode}",
       "visible":2
     }, {
       "type":"video",
