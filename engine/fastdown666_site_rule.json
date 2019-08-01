@@ -1,9 +1,9 @@
 {
   "type":"",
-  "url":"https://m.80ying.com/search",
-  "method":"post",
-  "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
-  "referrer":"https://m.80ying.com/",
+  "url":"",
+  "method":"",
+  "userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36",
+  "referrer":"http://www.fastdown666.com",
   "timeout":0,
   "header":[],
   "cookie":[],
@@ -19,13 +19,13 @@
     "param":""
   },
   "next":{
-    "selector":"div.co_content8 tr a:contains(下一页)",
+    "selector":"a.flag_pg:contains(下一页)",
     "fun":"attr",
     "param":"href"
   },
   "category":[],
   "item-check":["url", "name"],
-  "item-action":"app-sou://site?type=maxCard&title={name}&rule=https%3a%2f%2fnohub1.github.io%2fapp-sou%2fsite-rule%2f80sdy_site_video_view_rule.json%3f_t%3d10000&url={url}",
+  "item-action":"app-sou://sniffer?sniff=true&ua=Mozilla%2f5.0+(Linux%3b+Android+5.0%3b+SM-G900P+Build%2fLRX21T)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f63.0.3239.132+Mobile+Safari%2f537.36&url={url}",
   "item-long-action":"app-sou://webPreview?title={name}&url={url}&action={url}&actionText=查看",
   "item-view-template":{
     "nameVisibleType":"",
@@ -33,16 +33,16 @@
     "nameRenderType":"",
     "descRenderType":"",
     "imageScaleType":"",
-    "imagePlaceholder":"ic_dl_video"
+    "imagePlaceholder":"ic_dl_magnet"
   },
   "item":{
-    "selector":"ul.clearfix.search_list li",
+    "selector":"div.searchResultItem",
     "fun":"",
     "param":"",
     "url":{
-      "selector":"a",
+      "selector":"img.downloadicon",
       "fun":"attr",
-      "param":"href"
+      "param":"url"
     },
     "image":{
       "selector":"",
@@ -52,14 +52,14 @@
       "replacement":""
     },
     "name":{
-      "selector":"a",
+      "selector":"span.filename",
       "fun":"text",
       "param":"",
       "regex":"",
       "replacement":""
     },
     "desc":{
-      "selector":"em ~ em",
+      "selector":"div.line222",
       "fun":"text",
       "param":""
     }

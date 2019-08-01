@@ -1,6 +1,6 @@
 {
   "type":"",
-  "url":"https://www.80s.tw/movie/list",
+  "url":"https://www.80ying.com/movie/list",
   "method":"",
   "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
   "referrer":"",
@@ -20,25 +20,25 @@
   },
   "category":[
     {
-      "url":"https://www.80s.tw/movie/list",
+      "url":"https://www.80ying.com/movie/list",
       "image":"",
       "name":"电影",
       "desc":"",
       "rule":""
     }, {
-      "url":"https://www.80s.tw/ju/list",
+      "url":"https://www.80ying.com/ju/list",
       "image":"",
       "name":"电视剧",
       "desc":"",
       "rule":""
     }, {
-      "url":"https://www.80s.tw/dm/list",
+      "url":"https://www.80ying.com/dm/list",
       "image":"",
       "name":"动漫",
       "desc":"",
       "rule":""
     }, {
-      "url":"https://www.80s.tw/zy/list",
+      "url":"https://www.80ying.com/zy/list",
       "image":"",
       "name":"综艺",
       "desc":"",

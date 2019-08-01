@@ -23,7 +23,16 @@
       "view":"mediumCard",
       "rule":"https://nohub1.github.io/app-sou/engine/9080yy_site_rule.json",
       "url":"http://www.9080ys.com/vod-search--------------.html?wd={keywords-url-encode}",
-      "visible":2
+      "visible":0
+    }, {
+      "type":"video",
+      "name":"piaohua918",
+      "desc":"更多",
+      "engine":"jsoup",
+      "view":"mediumCard",
+      "rule":"https://nohub1.github.io/app-sou/engine/piaohua918_site_rule.json",
+      "url":"http://www.piaohua918.com/vodsearch/-------------.html?wd={keywords-url-encode}",
+      "visible":0
     }, {
       "type":"video",
       "name":"全集网",
@@ -32,7 +41,7 @@
       "view":"mediumCard",
       "rule":"https://nohub1.github.io/app-sou/engine/quanji888_site_rule.json",
       "url":"site://param?body=wd%3d{keywords-url-encode}",
-      "visible":2
+      "visible":1
     }, {
       "type":"video",
       "name":"热剧网",
@@ -41,7 +50,7 @@
       "view":"mediumCard",
       "rule":"https://nohub1.github.io/app-sou/engine/cicimai_site_rule.json",
       "url":"site://param?body=wd%3d{keywords-url-encode}",
-      "visible":2
+      "visible":1
     }, {
       "type":"video",
       "name":"天天影院",
@@ -50,7 +59,7 @@
       "view":"mediumCard",
       "rule":"https://nohub1.github.io/app-sou/engine/ttvdo_site_rule.json",
       "url":"http://www.ttvdo.com/?s={keywords-url-encode}",
-      "visible":2
+      "visible":1
     }, {
       "type":"video",
       "name":"高清MP4",
@@ -76,7 +85,7 @@
       "view":"mediumCard",
       "rule":"https://nohub1.github.io/app-sou/engine/bdsee_site_rule.json",
       "url":"http://www.bdsee.cn/?s={keywords-url-encode}",
-      "visible":0
+      "visible":1
     }, {
       "type":"movie",
       "name":"80s",
@@ -114,7 +123,7 @@
       "engine":"jsoup",
       "rule":"https://nohub1.github.io/app-sou/engine/ciligou_site_rule.json",
       "url":"https://www.ciligou.me/search?word={keywords-url-encode}",
-      "visible":0
+      "visible":1
     }, {
       "type":"movie",
       "name":"souboyun",
@@ -128,6 +137,13 @@
       "engine":"jsoup",
       "rule":"https://nohub1.github.io/app-sou/engine/ciliba_site_rule.json",
       "url":"https://www.ciliba.org/s/{keywords-url-encode}.html",
+      "visible":0
+    }, {
+      "type":"movie",
+      "name":"fastdown666",
+      "engine":"jsoup",
+      "rule":"https://nohub1.github.io/app-sou/engine/fastdown666_site_rule.json",
+      "url":"http://www.fastdown666.com/search.html?key={keywords-url-encode}",
       "visible":0
     }]
   }]
